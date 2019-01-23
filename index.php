@@ -21,29 +21,44 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- Popper JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
 
+
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<style>
+      /* Set the size of the div element that contains the map */
+     #map {
+       height: 300px;  /* The height is 400 pixels */
+       width: 100%;
+       background-color: grey;  /* The width is the width of the web page */
+      }
+   </style>
 <link rel="icon"
       type="image/jpg"
       href="images/demo/backgrounds/logo.jpg">
+
+
 </head>
 <body id="top">
-  <!-- Load Facebook SDK for JavaScript -->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+    <!-- Mailchimp Pop up and signup widget -->
 
-<!-- Your customer chat code -->
-<div class="fb-customerchat"
-  attribution=setup_tool
-  page_id="1636298273073735"
-  theme_color="#13cf13">
-</div>
+
+  <!-- WhatsHelp.io widget -->
+<script type="text/javascript">
+(function () {
+    var options = {
+        facebook: "1636298273073735", // Facebook page ID
+        whatsapp: "+237675779816", // WhatsApp number
+        call_to_action: "Message us", // Call to action
+        button_color: "#13cf13", // Color of button
+        position: "left", // Position may be 'right' or 'left'
+        order: "facebook,whatsapp", // Order of buttons
+    };
+    var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+    var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+    s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+    var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+})();
+</script>
 
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
@@ -115,7 +130,7 @@ Licence URI: http://www.os-templates.com/template-terms
           <article>
             <p class="heading">We are a Family </p>
             <h2 class="heading">With Team Spirit</h2>
-            <p>We enhance solidarity and team spirit.</p>
+            <p>We promote solidarity amongst Young Ladies.</p>
             <footer><a class="btn" href="#">Our souvenirs</a></footer>
           </article>
         </li>
@@ -143,7 +158,7 @@ Licence URI: http://www.os-templates.com/template-terms
       </li>
       <li>
         <div><i class="fa fa-3x fa-envelope-o"></i>
-          <h4 class="heading">Send us a mail</h4>
+          <h4 class="heading">Send us an email</h4>
           <p>ubicotel@gmail.com</p>
         </div>
       </li>
@@ -165,17 +180,17 @@ Licence URI: http://www.os-templates.com/template-terms
       <h2>Our Mission</h2>
       <p>
         ICOTEL,acronym for Innovative College of Technology Ladies
-        We aim first at putting academic excellence at the forefront and encouraging girls in STEM and those ot of STEM to engage into STEM.
-        Secondly,we aim at solving the challenges faced by the girls in the
+        We aim first at putting academic excellence at the forefront and encouraging girls in STEM(Science,Technology,Engineering and Mathematics fields) and those out of STEM, to engage into STEM studies.
+        Moreover,we aim at solving the challenges faced by the girls in the
         College of Technology and the girls in general due to their minority.
       </p>
     </div>
     <div class="column">
       <h2>Our Vision</h2>
     <p>
-     We aim at creating an International awareness of ICOTEL, and to contribute greatly to Technological Advancements Worldwide.In the long run
+     We aim at creating an International awareness of ICOTEL, and to contribute greatly to Technological Advancements Worldwide.In the long run,
      we aim at providing after university/school oppurtunities to the girls,in order to help them emancipate best in their careers nd be leaders
-     and owners of their own enterprises in the future.
+     and owners of their own enterprises/businesses in the future(after school).
     </p>
     </div>
 
@@ -184,7 +199,7 @@ Licence URI: http://www.os-templates.com/template-terms
     <p>
      Our goals are to focus on unity and patriotism,promote female education in the field of Technology and Engineering,
      encourage women emancipation and empowerment,endorse gender equality and sensitize more women to join the Engineering Sector.
-     We aim at training women entrepreneurs/leaders in a way that whne they leave school,they are ready to make a positive impact
+     We aim at training women entrepreneurs/leaders in a way that when they leave school,they are ready to make a positive impact
      towards soceital progress whenever and where ever they will be.
     </p>
     </div>
@@ -203,12 +218,12 @@ Licence URI: http://www.os-templates.com/template-terms
   <article class="hoc container clear center">
     <!-- ################################################################################################ -->
     <!-- <p class="nospace font-x1">Leave Us a Message</p> -->
-    <h2 class="heading font-x3">GALLERY/MESSSAGE US</h2>
-    <p class="btmspace-50">Message Us and take a look at our gallery</p>
+    <h2 class="heading font-x3">GALLERY</h2>
+    <p class="btmspace-50">Our images/Souvenirs</p>
     <footer>
       <ul class="nospace inline pushright">
-        <li><a class="btn" href="#">Message Us</a></li>
-        <li><a class="btn inverse" href="#">GALLERY</a></li>
+        <!-- <li><a class="btn" href="#">Message Us</a></li> -->
+        <li><a class="btn inverse" href="https://photos.app.goo.gl/1DFSqTqgQ6sxqc7F9">GALLERY</a></li>
       </ul>
     </footer>
     <!-- ################################################################################################ -->
@@ -225,51 +240,55 @@ Licence URI: http://www.os-templates.com/template-terms
 
     <!-- ################################################################################################ -->
     <div class="sectiontitle">
-      <h6 class="heading">Top Founders</h6>
+      <h6 class="heading" style="padding:2 10 2 10">Top Founders</h6>
     </div>
     <div class="group team">
-      <figure class="one_quarter first"><a href="#"><img src="images/demo/jess.jpg" alt="" style="width:320px;height: 200px;border-radius: 5px;"></a>
+      <figure class="one_quarter first"><a href="#"><img src="images/demo/jess.jpg" alt="" style="width:320px;height: 200px;border-radius: 15px;"></a>
         <figcaption>
-          <h6 class="heading">Kanmegne Tcheyanou Jessica Ines</h6>
+          <h6 class="heading"><a href="www.jessicatcheyanou.com">Jessica Ines Tcheyanou</a></h6>
           <em>Co-Founder</em>
           <footer>
             <ul class="faico clear">
               <li><a class="faicon-twitter" href="https://twitter.com/KanmegneJ"><i class="fa fa-twitter"></i></a></li>
               <li><a class="faicon-linkedin" href=;pl"www.linkedin.com/in/kanmegne-jessica-330295111"><i class="fa fa-linkedin"></i></a></li>
-              <li><a class="faicon-google-plus" href="https://plus.google.com/u/0/+JessicaTcheyanou"><i class="fa fa-google-plus"></i></a></li>
+              <li><a class="faicon-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="faicon-whatsapp" href="#"><i class="fa fa-whatsapp"></i></a></li>
             </ul>
           </footer>
         </figcaption>
       </figure>
       <figure class="one_quarter"><a href="#"><img src="images/demo/320x320.png" alt=""></a>
         <figcaption>
-          <h6 class="heading">Zang Ngalle Marie Franchise</h6>
+          <h6 class="heading">Zang Ngalle Marie</h6>
           <em>Co-Founder</em>
           <footer>
             <ul class="faico clear">
               <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
               <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-              <li><a class="faicon-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+              <li><a class="faicon-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="faicon-whatsapp" href="#"><i class="fa fa-whatsapp"></i></a></li>
+
 
             </ul>
           </footer>
         </figcaption>
       </figure>
-      <figure class="one_quarter"><a href="#"><img src="images/demo/320x320.png" alt=""></a>
+      <figure class="one_quarter"><a href="#"><img src="images/demo/320x320.png" alt="" style="width:320px;height: 200px;border-radius: 15px;"></a>
         <figcaption>
           <h6 class="heading">Ngakam Pascale Lydia</h6>
           <em>Co-Founder</em>
           <footer>
             <ul class="faico clear">
               <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-              <li><a class="faicon-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+              <li><a class="faicon-linkedin" href="https://www.linkedin.com/in/pascale-ngakam-9b02a3153"><i class="fa fa-linkedin"></i></a></li>
+              <li><a class="faicon-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="faicon-whatsapp" href="#"><i class="fa fa-whatsapp"></i></a></li>
 
             </ul>
           </footer>
         </figcaption>
       </figure>
-      <figure class="one_quarter"><a href="#"><img src="images/demo/320x320.png" alt=""></a>
+      <figure class="one_quarter"><a href="#"><img src="images/demo/manu.jpg" alt="" style="width:320px;height: 200px;border-radius: 15px;"></a>
         <figcaption>
           <h6 class="heading">Yakam Teutchou Manula</h6>
           <em>Co-Founder</em>
@@ -277,7 +296,8 @@ Licence URI: http://www.os-templates.com/template-terms
             <ul class="faico clear">
               <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
               <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-              <li><a class="faicon-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+              <li><a class="faicon-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="faicon-whatsapp" href="#"><i class="fa fa-whatsapp"></i></a></li>
 
             </ul>
           </footer>
@@ -326,17 +346,29 @@ Licence URI: http://www.os-templates.com/template-terms
       </ul>
     </div>
     <div class="one_third">
-      <h6 class="heading">Our Location</h6>
+      <h6 class="heading">Encourage our Activities</h6>
+      <p>Any form of support is always welcome,
+        either in cash or in kind.Contact us for more details in case you want to contribute in one way
+        or the order in our evolution</p>
 
 
-        <form id="formmomo" method="GET" action="https://developer.mtn.cm/OnlineMomoWeb/faces/transaction/transactionRequest.xhtml" target="_top">
-    	<input type="hidden" name="idbouton" value="2" autocomplete="off">
-    	<input type="hidden" name="typebouton" value="PAIE" autocomplete="off">
-    	<input class="momo mount" type="text" placeholder="" name="_amount" value="0" id="montant" autocomplete="off">
-            <input class="momo host" type="text" placeholder="" name="_tel" value="675779816" autocomplete="off">
-            <input class="momo pwd" placeholder="Please enter your password" name="_clP" value="" autocomplete="off" type="hidden">
-    	<input type="hidden" name="_email" value="jessicatcheyanou@gmail.com" autocomplete="off">
-            <input type="image" id="Button_Image" src="https://developer.mtn.cm/OnlineMomoWeb/console/uses/itg_img/buttons/MOMO_buy_now_EN.jpg" style="width : 250px; height: 100px;" border="0" name="submit" alt="OnloneMomo, le réflexe sécurité pour payer en ligne" autocomplete="off">
+        <form id="formmomo" method="POST" action="MOMO.php">
+
+            <?php if(isset($_GET['amount'])){
+              echo '<h6 class="text-success bold">Thanks for donating '.$_GET['amount'].' XAF to ICOTEL</h6>';
+            }
+
+            ?>
+
+
+          <label>Amount:</label>
+        	<input class="momo mount" type="text" placeholder="amount" name="amount"  id="montant" autocomplete="off">
+          <br/>
+          <label>MTN Mobile Money Number:</label>
+          <input class="momo host" type="text" placeholder="telepone number" name="tel"  autocomplete="off">
+          <br/>
+
+          <button type="submit">DONATE</button>
         </form>
 
 
@@ -363,16 +395,29 @@ Licence URI: http://www.os-templates.com/template-terms
       </ul> -->
     </div>
     <div class="one_third">
-      <h6 class="heading">ICOTEL Newsletter</h6>
-      <p class="nospace btmspace-30">Fill out this form and get updates on our activities and events</p>
-      <form method="post" action="#">
-        <fieldset>
-          <legend>Newsletter:</legend>
-          <input class="btmspace-15" type="text" value="" placeholder="Name">
-          <input class="btmspace-15" type="text" value="" placeholder="Email">
-          <button type="submit" value="submit">Submit</button>
-        </fieldset>
-      </form>
+      <h6 class="heading">Our Location</h6>
+      <p class="nospace btmspace-30">Our main offices are found at the College of Technology,University of Buea</p>
+      <div id="map"></div>
+  <script>
+// Initialize and add the map
+function initMap() {
+// The location of icotel
+var icotel = {lat: 4.156819, lng:  9.231578};
+// The map, centered at icotel
+var map = new google.maps.Map(
+    document.getElementById('map'), {zoom: 4, center: icotel});
+// The marker, positioned at icotel
+var marker = new google.maps.Marker({position: icotel, map: map});
+}
+  </script>
+  <!--Load the API from the specified URL
+  * The async attribute allows the browser to render the page while the API loads
+  * The key parameter will contain your own API key (which is not needed for this tutorial)
+  * The callback parameter executes the initMap() function
+  -->
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZiGryM1n-B480zEaaHGR6dJ0v3Q-EVpU&callback=initMap">
+  </script>
     </div>
     <!-- ################################################################################################ -->
   </footer>
